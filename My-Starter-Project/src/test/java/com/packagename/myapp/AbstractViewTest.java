@@ -1,4 +1,4 @@
-package com.packagename.myapp.spring;
+package com.packagename.myapp;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -67,7 +67,7 @@ public abstract class AbstractViewTest extends ParallelTest {
 
     /**
      * Asserts that the given {@code element} is rendered using a theme
-     * identified by {@code themeClass}. If the theme is not found, JUnit
+     * identified by {@code themeClass}. If the the is not found, JUnit
      * assert will fail the test case.
      *
      * @param element       web element to check for the theme

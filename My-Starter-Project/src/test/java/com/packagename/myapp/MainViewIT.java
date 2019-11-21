@@ -1,4 +1,4 @@
-package com.packagename.myapp.spring;
+package com.packagename.myapp;
 
 import org.junit.Assert;
 import org.junit.Test;

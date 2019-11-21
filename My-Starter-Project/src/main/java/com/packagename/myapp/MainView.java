@@ -1,21 +1,21 @@
-package com.packagename.myapp.spring;
+package com.packagename.myapp;
 
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.notification.Notification;
-import org.springframework.beans.factory.annotation.Autowired;
-
 import com.vaadin.flow.component.orderedlayout.VerticalLayout;
 import com.vaadin.flow.router.Route;
 import com.vaadin.flow.server.PWA;
 
-@Route
-@PWA(name = "Project Base for Vaadin Flow with Spring", shortName = "Project Base")
+/**
+ * The main view contains a button and a click listener.
+ */
+@Route("")
+@PWA(name = "Project Base for Vaadin", shortName = "Project Base")
 public class MainView extends VerticalLayout {
 
-    public MainView(@Autowired MessageBean bean) {
+    public MainView() {
         Button button = new Button("Click me",
-                e -> Notification.show(bean.getMessage()));
+                event -> Notification.show("Clicked!"));
         add(button);
     }
-
 }

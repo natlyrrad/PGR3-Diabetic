@@ -1,19 +1,18 @@
-# Project Base for Vaadin Flow and Spring Boot
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vaadin-flow/Lobby#?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
-This project can be used as a starting point to create your own Vaadin Flow application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+# Skeleton Starter for Vaadin
 
-The best way to create your own project based on this starter is [start.vaadin.com](https://start.vaadin.com/) - you can get only the necessary parts and choose the package naming you want to use.
+This project can be used as a starting point to create your own Vaadin application.
+It has the necessary dependencies and files to help you get started.
 
-Import the project to the IDE of your choosing as a Maven project.
+The best way to use it is via [vaadin.com/start](https://vaadin.com/start) - you can get only the necessary parts and choose the package naming you want to use.
+There is also a [getting started tutorial](https://vaadin.com/learn) based on this project.
 
-Run the application using `mvn spring-boot:run` or by running the `Application` class directly from your IDE.
+To access it directly from github, clone the repository and import the project to the IDE of your choice as a Maven project. You need to have Java 8 or 11 installed.
 
-Open http://localhost:8080/ in a browser.
+Run using `mvn jetty:run` and open [http://localhost:8080](http://localhost:8080) in the browser.
 
-If you want to run the application locally in the production mode, run `mvn spring-boot:run -Pproduction`.
+If you want to run your app locally in the production mode, run `mvn jetty:run -Pproduction`.
 
-For documentation on using Vaadin Flow and Spring, visit [vaadin.com/docs](https://vaadin.com/docs/flow/spring/tutorial-spring-basic.html)
-
-For more information on Vaadin Flow, visit https://vaadin.com/flow.
+For a full Vaadin application example, there are more choices available also from [vaadin.com/start](https://vaadin.com/start) page.
 
