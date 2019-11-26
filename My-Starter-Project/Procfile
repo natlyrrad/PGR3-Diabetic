@@ -1,1 +1,1 @@
-java $JAVA_OPTS -cp target/classes:target/dependency/* jetty:run
+web: java -jar target/My-Starter-Project-1.0.jar
